@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>LAB9</title>
+</head>
+<body>
+    <p>1. Программа, которая определяет количество слов в тексте</p>
+    <textarea type="text" id="input"></textarea>
+    <div>
+    <button onclick="CountWords();">Определить</button></div>
+    <p id="stringCount"></p>
+    <hr>
+    <p>2. Программа, в которой все слова А заменены словом В,
+    где А и В - заданные слова, возможно, различной длины. </p>
+    <span>A</span>
+    <input type="text" id="firstWord">
+    <span>B</span>
+    <input type="text" id="secondWord">
+    <div>
+    <textarea type="text" id="inputReplacement"></textarea></div>
+    <div>
+    <button onclick="ReplacementWords();">Определить</button></div>
+    <p id="stringReplacement"></p>
+    <hr>
+    <p>3. Программу, которая "сжимает" заданный текст, т.е.
+    заменяет все подряд идущие пробелы на один.</p>
+    <textarea type="text" id="inputDelete"></textarea>
+    <div>
+    <button onclick="DeleteGaps();">Определить</button></div>
+    <p id="stringDelete"></p>
+</body>
+<script src="script.js"></script>
+</html>
